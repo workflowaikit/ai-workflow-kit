@@ -26,6 +26,9 @@ Recommended deployment path:
 - Tools:
   - `tools/ai-roi-calculator.html`
   - `tools/ai-customer-reply-generator.html`
+- Sitemaps:
+  - `sitemap.xml`
+  - `sitemap.txt`
 - Articles:
   - `articles/ai-customer-service-small-business.html`
   - `articles/ai-roi-calculator-small-business.html`
