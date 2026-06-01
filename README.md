@@ -22,6 +22,10 @@ Recommended deployment path:
 - Privacy Policy: `privacy.html`
 - Terms: `terms.html`
 - Affiliate Disclosure: `affiliate-disclosure.html`
+- Template landing page: `templates.html`
+- Tools:
+  - `tools/ai-roi-calculator.html`
+  - `tools/ai-customer-reply-generator.html`
 - Articles:
   - `articles/ai-customer-service-small-business.html`
   - `articles/ai-roi-calculator-small-business.html`

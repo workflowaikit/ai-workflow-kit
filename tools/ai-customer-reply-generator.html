@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Free AI Customer Reply Generator for Small Businesses</title>
+    <meta name="description" content="Generate a customer reply draft for support emails, complaints, review follow-ups, and service questions." />
+    <link rel="canonical" href="https://ai-workflow-kit.pages.dev/tools/ai-customer-reply-generator.html" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html"><span class="brand-mark">AI</span><span>Workflow Kit</span></a>
+      <nav aria-label="Primary navigation"><a href="../index.html#articles">Articles</a><a href="../templates.html">Templates</a><a href="../contact.html">Contact</a></nav>
+    </header>
+    <main class="tool-page">
+      <section class="tool-hero">
+        <p class="eyebrow">Free tool</p>
+        <h1>AI Customer Reply Generator</h1>
+        <p>Create a first-draft customer reply for emails, complaints, reviews, and service questions. Always review facts before sending.</p>
+      </section>
+      <section class="reply-tool">
+        <form id="reply-form" class="generator-panel">
+          <label>Business name <input name="business" type="text" placeholder="Example: Northside Plumbing" /></label>
+          <label>Tone
+            <select name="tone">
+              <option value="warm">Warm and helpful</option>
+              <option value="apology">Apologetic</option>
+              <option value="firm">Firm and professional</option>
+            </select>
+          </label>
+          <label>Customer message <textarea name="message" rows="8" placeholder="Paste the customer message here"></textarea></label>
+          <button class="button primary" type="submit">Generate reply</button>
+        </form>
+        <div class="generator-panel">
+          <label>Draft reply <textarea id="reply-output" rows="14" readonly></textarea></label>
+          <p class="tool-note">This is a lightweight browser tool, not legal or customer service advice. Check names, dates, prices, policies, and private information before sending.</p>
+        </div>
+      </section>
+    </main>
+    <script src="../script.js"></script>
+  </body>
+</html>

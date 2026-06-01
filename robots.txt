@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aiworkflowkit.com/sitemap.xml
+Sitemap: https://ai-workflow-kit.pages.dev/sitemap.xml

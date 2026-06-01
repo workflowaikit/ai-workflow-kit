@@ -339,6 +339,20 @@ details p {
   font: inherit;
 }
 
+.calculator select,
+.generator-panel select,
+.generator-panel textarea,
+.generator-panel input,
+.lead-form input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  font: inherit;
+}
+
 .calculator output {
   display: block;
   padding: 18px;
@@ -517,6 +531,86 @@ summary {
   color: white;
 }
 
+.tool-page,
+.lead-page {
+  min-height: 76vh;
+}
+
+.tool-hero {
+  max-width: 920px;
+  padding: clamp(46px, 8vw, 92px) clamp(20px, 5vw, 72px) 28px;
+}
+
+.tool-hero h1 {
+  margin: 0 0 18px;
+  color: var(--green-dark);
+  font-size: clamp(2.35rem, 6vw, 5rem);
+  line-height: 0.98;
+}
+
+.tool-hero p {
+  color: var(--muted);
+  font-size: 1.16rem;
+}
+
+.embedded-tool {
+  margin-top: 0;
+}
+
+.reply-tool,
+.lead-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  padding: 20px clamp(20px, 5vw, 72px) clamp(54px, 8vw, 96px);
+}
+
+.generator-panel,
+.lead-form,
+.lead-copy,
+.affiliate-box {
+  display: grid;
+  gap: 14px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 8px 24px rgba(24, 32, 29, 0.06);
+}
+
+.generator-panel label,
+.lead-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.tool-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.lead-copy h2 {
+  margin: 0;
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+}
+
+.affiliate-box {
+  margin-top: 42px;
+}
+
+.affiliate-box h2 {
+  font-size: clamp(1.45rem, 3vw, 2.2rem);
+}
+
+.affiliate-box a {
+  color: var(--green);
+  font-weight: 900;
+  text-decoration: none;
+}
+
 @media (max-width: 980px) {
   .workflow-grid,
   .article-grid,
@@ -527,7 +621,9 @@ summary {
   .intro,
   .split,
   .tool-section,
-  .monetization {
+  .monetization,
+  .reply-tool,
+  .lead-layout {
     grid-template-columns: 1fr;
   }
 }

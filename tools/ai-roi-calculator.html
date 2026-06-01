@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Free AI ROI Calculator for Small Business Owners</title>
+    <meta name="description" content="Calculate whether an AI tool is worth paying for using saved hours, hourly value, and monthly software cost." />
+    <link rel="canonical" href="https://ai-workflow-kit.pages.dev/tools/ai-roi-calculator.html" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html"><span class="brand-mark">AI</span><span>Workflow Kit</span></a>
+      <nav aria-label="Primary navigation"><a href="../index.html#articles">Articles</a><a href="../templates.html">Templates</a><a href="../contact.html">Contact</a></nav>
+    </header>
+    <main class="tool-page">
+      <section class="tool-hero">
+        <p class="eyebrow">Free calculator</p>
+        <h1>AI ROI Calculator for Small Business Owners</h1>
+        <p>Estimate whether an AI tool pays for itself before you add another subscription.</p>
+      </section>
+      <section class="tool-section embedded-tool">
+        <div class="tool-copy">
+          <h2>Calculate monthly net value</h2>
+          <p>Use conservative numbers. If the result is positive even with cautious assumptions, the workflow is worth testing for two weeks.</p>
+        </div>
+        <form class="calculator" id="roi-form">
+          <label>Hours saved per week <input id="hours" type="number" min="0" value="5" step="0.5" /></label>
+          <label>Hourly value of your time <input id="rate" type="number" min="0" value="45" step="5" /></label>
+          <label>Monthly AI tool cost <input id="cost" type="number" min="0" value="30" step="5" /></label>
+          <output id="result" for="hours rate cost">$870 estimated monthly net value</output>
+        </form>
+      </section>
+    </main>
+    <script src="../script.js"></script>
+  </body>
+</html>
