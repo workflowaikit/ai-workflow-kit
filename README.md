@@ -26,3 +26,10 @@ Recommended deployment path:
   - `articles/ai-customer-service-small-business.html`
   - `articles/ai-roi-calculator-small-business.html`
   - `articles/best-ai-workflows-small-business.html`
+  - `articles/chatgpt-local-business-marketing.html`
+  - `articles/ai-review-response-templates.html`
+  - `articles/ai-late-payment-reminder-prompts.html`
+  - `articles/write-job-descriptions-with-ai.html`
+  - `articles/ai-sop-generator-small-business.html`
+  - `articles/best-ai-tools-solo-business-owners.html`
+  - `articles/ai-content-calendar-small-business.html`
